@@ -35,7 +35,7 @@ class Hashable:
 
     @property
     def _load_factor(self):
-        #状态因子
+        #装载因子
         return self.length/float(len(self._table))
 
     def __len__(self):
